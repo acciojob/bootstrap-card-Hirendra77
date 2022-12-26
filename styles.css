@@ -1,2 +1,16 @@
+*{
+    padding: 0;
+margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,50% 50%);
+    align-items:flex-start;
+   /* justify-content: start; */
+  
 
-/* Your CSS Code here. */
+}
+.box{
+    height: 510px;
+    
+}
